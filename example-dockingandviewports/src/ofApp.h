@@ -11,16 +11,11 @@ class ofApp : public ofBaseApp{
 
 		void setup() {
             // Setup imgui with the appropriate config flags
-            ofxImGui::BaseTheme* theme_ = nullptr;
-            bool autoDraw_ = false; 
-            ImGuiConfigFlags customFlags_ = ImGuiConfigFlags_DockingEnable | ImGuiConfigFlags_ViewportsEnable;
-            bool restoreGuiState_ = true;
-            bool showImGuiMouseCursor_ = false;
-            gui.setup(theme_, autoDraw_, customFlags_, restoreGuiState_, showImGuiMouseCursor_);
+            gui.setup(nullptr, false, ImGuiConfigFlags_DockingEnable | ImGuiConfigFlags_ViewportsEnable, true);
 
             // Uncomment below to perform docking with SHIFT key
             // Gives a better user experience, matter of opinion.
-            ImGui::GetIO().ConfigDockingWithShift=true;
+            //ImGui::GetIO().ConfigDockingWithShift=true;
 
             // Uncomment below to "force" all imgui windows to be standalone
             //ImGui::GetIO().ConfigViewportsNoAutoMerge=true;
