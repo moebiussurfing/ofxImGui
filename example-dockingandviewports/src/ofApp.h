@@ -20,7 +20,7 @@ class ofApp : public ofBaseApp{
 
             // Uncomment below to perform docking with SHIFT key
             // Gives a better user experience, matter of opinion.
-            ImGui::GetIO().ConfigDockingWithShift=true;
+            //ImGui::GetIO().ConfigDockingWithShift=true;
 
             // Uncomment below to "force" all imgui windows to be standalone
             //ImGui::GetIO().ConfigViewportsNoAutoMerge=true;
