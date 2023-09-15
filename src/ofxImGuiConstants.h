@@ -18,7 +18,7 @@
 #ifndef OFXIMGUI_DEBUG
 	// Uncomment to enable debugging by default
 	// Prefer defining it in your project macros.
-	//#define OFXIMGUI_DEBUG
+	#define OFXIMGUI_DEBUG
 #endif
 
 // Additional debug flag

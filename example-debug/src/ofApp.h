@@ -1,5 +1,8 @@
 #pragma once
 
+#include "GLFW/glfw3.h"
+#define OFXIMGUI_DEBUG
+
 #include "ofMain.h"
 #include "ofApp.h"
 #include "ofxImGui.h"
