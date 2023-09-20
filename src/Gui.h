@@ -199,5 +199,10 @@ namespace ofxImGui
 
 		//static LinkedList<ofAppBaseWindow*, ofxImGuiContext> imguiContexts; // Window/MasterContext map
 		static std::unordered_map<ofAppBaseWindow*, ofxImGuiContext> imguiContexts; // Window/MasterContext map
+
+	public:
+		bool isMaster() {
+			return isContextOwned;
+		}
 	};
 }
