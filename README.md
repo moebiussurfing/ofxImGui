@@ -1,3 +1,14 @@
+> [!WARNING]
+> DO NOT USE THIS REPO
+> THIS REPO IS FOR TESTING PURPOSES ONLY
+> RELATED TO ofxSurfingImGui
+> Use instead:
+> https://github.com/Daandelange/ofxImGui
+> Or the mirrored:
+> https://github.com/Daandelange/ofxImGui/tree/develop
+
+----
+
 # ofxImGui
 
 ofxAddon that allows you to use [ImGui](https://github.com/ocornut/imgui) in [openFrameworks](https://github.com/openframeworks/openFrameworks).
