@@ -1,11 +1,11 @@
 > [!WARNING]
-> DO NOT USE THIS REPO
-> THIS REPO IS FOR TESTING PURPOSES ONLY
-> RELATED TO ofxSurfingImGui
-> Use instead:
-> https://github.com/Daandelange/ofxImGui
-> Or the mirrored:
-> https://github.com/Daandelange/ofxImGui/tree/develop
+> DO NOT USE THIS REPO 
+> THIS REPO IS FOR TESTING PURPOSES ONLY 
+> RELATED TO BE USED FOR [ofxSurfingImGui](https://github.com/moebiussurfing/ofxSurfingImGui)
+> Use this one instead: 
+> https://github.com/Daandelange/ofxImGui 
+> Or the mirrored to the above ofxImGui: 
+> https://github.com/Daandelange/ofxImGui/tree/develop 
 
 ----
 
